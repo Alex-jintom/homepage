@@ -23,7 +23,7 @@ if($bid){
     //게시물에 첨부된 파일이 있으면 디비에서 조회 후 모두 삭제해준다.
     $file_result = $mysqli->query("select * from file_table where status=1 and bid=".$bid) or die("query error => ".$mysqli->error);
     while($rs = $file_result->fetch_object()){
-        $delete_file="/var/www/html/real-brgith93/data/".$rs->filename;
+        $delete_file="/var/www/html/real-bright93/data/".$rs->filename;
         unlink($delete_file);
     }
 
