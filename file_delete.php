@@ -24,7 +24,7 @@ $result=$mysqli->query($sql) or die($mysqli->error);
 if($result){
    
     //서버에 저장되어 있는 파일 삭제
-    $delete_file="/var/www/html/data/".$rs->filename;
+    $delete_file="/var/www/html/real-brgith93/data/".$rs->filename;
     // $delete_file=$_SERVER["DOCUMENT_ROOT"]."/data/".$rs->filename; "이렇게하면 안먹혀!!!!!!!"
     unlink($delete_file);
 

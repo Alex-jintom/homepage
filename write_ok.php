@@ -56,7 +56,7 @@ if(count($_FILES["upfile"]["name"])>0){//첨부한 파일이 있으면
           exit;
       }
 
-      $save_dir = "/var/www/html/data/";//파일을 업로드할 디렉토리
+      $save_dir = "/var/www/html/real-brgith93/data/";//파일을 업로드할 디렉토리
       $filename = $_FILES["upfile"]["name"][$k];
       $ext = pathinfo($filename,PATHINFO_EXTENSION);//확장자 구하기
       $newfilename = date("YmdHis").substr(rand(),0,6);
