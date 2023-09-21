@@ -330,7 +330,32 @@ if($firstPageNumber > $totalPage) {
         </p>
 
 <script>
-
+ /*  $("#more_button").click(function () {
+       
+        var data = {//more_list_page.php에 넘겨주는 파라미터 값이다.
+            pageNumber : $('#nextPageNumber').val() ,
+            pageCount : <?php echo $pageCount;?>,
+            totalCount : <?php echo $totalCount;?>,
+            search_keyword : <?php echo $search_keyword;?>
+        };
+            $.ajax({
+                async : false ,
+                type : 'post' ,//post방식으로 넘겨준다. ajax는 반드시 post로 해준다.
+                url : 'more_list_page.php' ,
+                data  : data ,//위에서 만든 파라미터들을 넘겨준다.
+                dataType : 'html' ,//리턴받을 형식이다. html말고 text난 json도 있다. json을 가장 많이 쓴다.
+                error : function() {} ,
+                success : function(return_data) {
+                    if(return_data==false){
+                        alert('마지막 페이지입니다.');
+                        return;
+                    }else{
+                        $("#board_list").append(return_data);//table 마지막에 붙여준다. 반대는 prepend가 있다.
+                        $("#nextPageNumber").val(parseInt($('#nextPageNumber').val())+1);//다음페이지를 위해 1씩 증가해준다.
+                    }
+                }
+        });
+      });
 </script>
 
 <?php
