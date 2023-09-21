@@ -14,7 +14,7 @@ if($rs){
     $sql="update cart set userid='".$userid."' where ssid='".session_id()."'";//로그인하면 장바구니에 세션아이디가 같은 제품들의 userid를 업데이트한다.
     $result=$mysqli->query($sql) or die($mysqli->error);
 
-    echo "<script>alert('어서오십시오.');location.href='/';</script>";
+    echo "<script>alert('어서오십시오.');location.href='twocolumn2.php';</script>";
     exit;
 
 }else{
