@@ -12,72 +12,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
     </head>
-    <body class="subpage">
-        <div id="page-wrapper">
-
-            <!-- Header -->
-                <section id="header">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-
-                                <!-- Logo -->
-                                    <h1><a href="index.html" id="logo">Halcyonic</a></h1>
-
-                                <!-- Nav -->
-                                    <nav id="nav">
-                                        <a href="index.html">Homepage</a>
-                                        <a href="threecolumn.html">Three Column</a>
-                                        <a href="twocolumn1.html">Two Column #1</a>
-                                        <a href="twocolumn2.php">Two Column #2</a>
-                                        <a href="onecolumn.html">One Column</a>
-                                    </nav>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-            <!-- Content -->
-                <section id="content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-9 col-12-medium">
-
-                                <!-- Main Content -->
-                                    <section>
-                                        <header>
-                                            <h2>Two Column #1</h2>
-                                            <h3>A generic two column layout</h3>
-                                        </header>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, congue
-                                            vel 
-                                        </p>
-                                        <p>
-                                            Sed faucibus viverra ligula, non varius magna semper vitae. Donec eu justo ut ipsum
-                                            hendrerit.
-                                        </p>
-                                        <p>
-                                            Mauris sit amet tellus urna. In facilisis, tortor vitae ultricies egestas, odio
-                                            mi rhoncus arcu,
-                                        </p>
-                                        <p>
-                                            Sed faucibus viverra ligula, non varius magna semper vitae. Donec eu justo ut ipsum
-                                            hendrerit con
-                                        <p>
-                                            Mauris sit amet tellus urna. In facilisis, tortor vitae ultricies egestas, odio
-                                            mi rhoncus arcu, quis euismod felis felis et velit. Mauris varius consectetur erat
-                                            egestas tempus. Cras convallis odio sit amet risus convallis porttitor. Integer
-                                            vehicula fermentum ligula at pretium. Suspendisse semper iaculis eros, eu aliquam
-                                            justo imperdiet vel. Proin nec dictum mi. Duis commodo enim non tellus interdum
-                                            iaculis. Phasellus ultrices diam sit amet orci lacinia sed consequat dui auctor.
-                                        </p>
-                                    </section>
-
-                                    
-
-
+    
 
 <?php
 include "header.php";
@@ -240,6 +175,72 @@ if($firstPageNumber > $totalPage) {
 <?php
 include "footer.php";
 ?>
+    <body class="subpage">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+                <section id="header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <!-- Logo -->
+                                    <h1><a href="index.html" id="logo">Halcyonic</a></h1>
+
+                                <!-- Nav -->
+                                    <nav id="nav">
+                                        <a href="index.html">Homepage</a>
+                                        <a href="threecolumn.html">Three Column</a>
+                                        <a href="twocolumn1.html">Two Column #1</a>
+                                        <a href="twocolumn2.php">Two Column #2</a>
+                                        <a href="onecolumn.html">One Column</a>
+                                    </nav>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            <!-- Content -->
+                <section id="content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-9 col-12-medium">
+
+                                <!-- Main Content -->
+                                    <section>
+                                        <header>
+                                            <h2>Two Column #1</h2>
+                                            <h3>A generic two column layout</h3>
+                                        </header>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, congue
+                                            vel 
+                                        </p>
+                                        <p>
+                                            Sed faucibus viverra ligula, non varius magna semper vitae. Donec eu justo ut ipsum
+                                            hendrerit.
+                                        </p>
+                                        <p>
+                                            Mauris sit amet tellus urna. In facilisis, tortor vitae ultricies egestas, odio
+                                            mi rhoncus arcu,
+                                        </p>
+                                        <p>
+                                            Sed faucibus viverra ligula, non varius magna semper vitae. Donec eu justo ut ipsum
+                                            hendrerit con
+                                        <p>
+                                            Mauris sit amet tellus urna. In facilisis, tortor vitae ultricies egestas, odio
+                                            mi rhoncus arcu, quis euismod felis felis et velit. Mauris varius consectetur erat
+                                            egestas tempus. Cras convallis odio sit amet risus convallis porttitor. Integer
+                                            vehicula fermentum ligula at pretium. Suspendisse semper iaculis eros, eu aliquam
+                                            justo imperdiet vel. Proin nec dictum mi. Duis commodo enim non tellus interdum
+                                            iaculis. Phasellus ultrices diam sit amet orci lacinia sed consequat dui auctor.
+                                        </p>
+                                    </section>
+
+                                    
+
+
 
 
                             </div>
