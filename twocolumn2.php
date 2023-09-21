@@ -13,8 +13,33 @@
         <link rel="stylesheet" href="assets/css/main.css" />
     </head>
     
+    <body class="subpage">
+        <div id="page-wrapper">
 
-<?php
+            <!-- Header -->
+                <section id="header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+
+                                <!-- Logo -->
+                                    <h1><a href="index.html" id="logo">Halcyonic</a></h1>
+
+                                <!-- Nav -->
+                                    <nav id="nav">
+                                        <a href="index.html">Homepage</a>
+                                        <a href="threecolumn.html">Three Column</a>
+                                        <a href="twocolumn1.html">Two Column #1</a>
+                                        <a href="twocolumn2.php">Two Column #2</a>
+                                        <a href="onecolumn.html">One Column</a>
+                                    </nav>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <?php
 include "header.php";
 
 
@@ -175,32 +200,6 @@ if($firstPageNumber > $totalPage) {
 <?php
 include "footer.php";
 ?>
-    <body class="subpage">
-        <div id="page-wrapper">
-
-            <!-- Header -->
-                <section id="header">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-
-                                <!-- Logo -->
-                                    <h1><a href="index.html" id="logo">Halcyonic</a></h1>
-
-                                <!-- Nav -->
-                                    <nav id="nav">
-                                        <a href="index.html">Homepage</a>
-                                        <a href="threecolumn.html">Three Column</a>
-                                        <a href="twocolumn1.html">Two Column #1</a>
-                                        <a href="twocolumn2.php">Two Column #2</a>
-                                        <a href="onecolumn.html">One Column</a>
-                                    </nav>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
             <!-- Content -->
                 <section id="content">
                     <div class="container">
