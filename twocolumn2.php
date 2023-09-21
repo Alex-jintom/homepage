@@ -7,7 +7,7 @@
 -->
 <html>
     <head>
-        <title>Two Column 1 - Halcyonic by HTML5 UP</title>
+    <title>JIN dashboard</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
@@ -22,17 +22,17 @@
                         <div class="row">
                             <div class="col-12">
 
-                                <!-- Logo -->
-                                    <h1><a href="index.html" id="logo">Halcyonic</a></h1>
+             								<!-- Logo -->
+									<h1><a href="index.html" id="logo">Jin dashboard</a></h1>
 
-                                <!-- Nav -->
-                                    <nav id="nav">
-                                        <a href="index.html">Homepage</a>
-                                        <a href="threecolumn.html">Three Column</a>
-                                        <a href="twocolumn1.html">Two Column #1</a>
-                                        <a href="twocolumn2.php">Two Column #2</a>
-                                        <a href="onecolumn.html">One Column</a>
-                                    </nav>
+<!-- Nav -->
+    <nav id="nav">
+        <a href="index.html">Introduce</a>
+        <!--<a href="threecolumn.html">IT</a>-->
+        <!--<a href="twocolumn1.html">이커머스</a>-->
+         <a href="twocolumn2.php">Two Column #2</a>
+         <a href="onecolumn.html">소개</a>
+    </nav>
 
                             </div>
                         </div>
@@ -50,16 +50,14 @@
                                 <!-- Main Content -->
                                     <section>
                                         <header>
-                                            <h2>Two Column #1</h2>
-                                            <h3>A generic two column layout</h3>
+                                            <h2>게시판</h2>
+                                            <h3>필요한 내용을 아래 게시판에 작성해보자.</h3>
                                         </header>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, congue
-                                            vel 
+                                            게시판 작성에 앞서서 회원가입 부터 진행 필요
                                         </p>
                                         <p>
-                                            Sed faucibus viverra ligula, non varius magna semper vitae. Donec eu justo ut ipsum
-                                            hendrerit.
+                                            언제든지 편하게 사용하세요.
                                         </p>
                               
                                         </p>
@@ -71,23 +69,22 @@
                                 <!-- Sidebar -->
                                     <section>
                                         <header>
-                                            <h2>Magna Phasellus</h2>
+                                            <h2>추천 링크</h2>
                                         </header>
                                         <ul class="link-list">
-                                            <li><a href="#">Sed dolore viverra</a></li>
+                                            <li><a href="#">추천 링크</a></li>
                                           
                                         </ul>
                                     </section>
                                     <section>
                                         <header>
-                                            <h2>Ipsum Dolor</h2>
+                                            <h2>메모장</h2>
                                         </header>
                                         <p>
-                                            Vehicula fermentum ligula at pretium. Suspendisse semper iaculis eros, eu aliquam
-                                            iaculis. Phasellus ultrices diam sit amet orci lacinia sed consequat.
+                                            필요한 내용이 있으면 메모를 진행해보자
                                         </p>
                                         <ul class="link-list">
-                                            <li><a href="#">Sed dolore viverra</a></li>
+                                            <li><a href="#">메모 진행</a></li>
                                         
                                         </ul>
                                     </section>
@@ -98,82 +95,7 @@
                 </section>
 
 
-      <!-- Footer -->
-      <section id="footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-8 col-12-medium">
-
-                                <!-- Links -->
-                                    <section>
-                                        <h2>Links to Important Stuff</h2>
-                                        <div>
-                                            <div class="row">
-                                                <div class="col-3 col-12-small">
-                                                    <ul class="link-list last-child">
-                                                        <li><a href="#">Neque amet dapibus</a></li>
-                                               
-                                                    </ul>
-                                                </div>
-                                                <div class="col-3 col-12-small">
-                                                    <ul class="link-list last-child">
-                                                        <li><a href="#">Neque amet dapibus</a></li>
-                                                      
-                                                    </ul>
-                                                </div>
-                                                <div class="col-3 col-12-small">
-                                                    <ul class="link-list last-child">
-                                                        <li><a href="#">Neque amet dapibus</a></li>
-                                                
-                                                    </ul>
-                                                </div>
-                                                <div class="col-3 col-12-small">
-                                                    <ul class="link-list last-child">
-                                                        <li><a href="#">Neque amet dapibus</a></li>
-                                              
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-
-                            </div>
-                            <div class="col-4 col-12-medium imp-medium">
-
-                                <!-- Blurb -->
-                                    <section>
-                                        <h2>An Informative Text Blurb</h2>
-                                        <p>
-                                            Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed. Suspendisse eu
-                                         
-                                        </p>
-                                    </section>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-            <!-- Copyright -->
-                <div id="copyright">
-                    © Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
-                </div>
-
-        </div>
-
-        <!-- Scripts -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/browser.min.js"></script>
-            <script src="assets/js/breakpoints.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <script src="assets/js/main.js"></script>
-    </body>
-
-
-    
-</html>
-
-<?php
+                <?php
 include "header.php";
 
 
@@ -331,3 +253,79 @@ if($firstPageNumber > $totalPage) {
 <?php
 include "footer.php";
 ?>
+
+
+      <!-- Footer -->
+      <section id="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-8 col-12-medium">
+
+                                <!-- Links -->
+                                    <section>
+                                        <h2>Article</h2>
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-3 col-12-small">
+                                                    <ul class="link-list last-child">
+                                                    <li><a href="https://luckyyowu.tistory.com/418">회사 업무용 사내 메신저 '슬랙 타입' vs '일반 타입'</a></li>
+                                               
+                                                    </ul>
+                                                </div>
+                                                <div class="col-3 col-12-small">
+                                                    <ul class="link-list last-child">
+                                                    <li><a href="https://luckyyowu.tistory.com/370">어느 스타트업의 애자일 스크럼와 JIRA에 대한 연구 문서</a></li>
+                                                      
+                                                    </ul>
+                                                </div>
+                                                <div class="col-3 col-12-small">
+                                                    <ul class="link-list last-child">
+                                                        <li><a href="#">Neque amet dapibus</a></li>
+                                                
+                                                    </ul>
+                                                </div>
+                                                <div class="col-3 col-12-small">
+                                                    <ul class="link-list last-child">
+                                                        <li><a href="#">Neque amet dapibus</a></li>
+                                              
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                            </div>
+                            <div class="col-4 col-12-medium imp-medium">
+
+                                <!-- Blurb -->
+                                    <section>
+                                        <h2>An Informative Text Blurb</h2>
+                                        <p>
+                                            Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed. Suspendisse eu
+                                         
+                                        </p>
+                                    </section>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+ 	<!-- Copyright -->
+     <div id="copyright">
+					&copy; Real-bright | Design: <a href="http://real-bright93.com/index.html">소개글</a>
+				</div>
+
+        </div>
+
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+    </body>
+
+
+    
+</html>
