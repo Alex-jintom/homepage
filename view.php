@@ -45,7 +45,7 @@ while($recs = $rec_result->fetch_object()){
         <?php
           foreach($fileArray as $fa){
         ?>
-          <p><img src="/data/<?php echo $fa->filename;?>"></p>
+          <p><img src="/var/www/html/data/<?php echo $fa->filename;?>"></p>
         <?php }?>
         <p>
           <?php echo $rs->content;?>
@@ -61,7 +61,7 @@ while($recs = $rec_result->fetch_object()){
      
 
       <nav class="blog-pagination" aria-label="Pagination">
-        <a class="btn btn-outline-secondary" href="index.php">목록</a>
+        <a class="btn btn-outline-secondary" href="twocolumn2.php">목록</a>
         <a class="btn btn-outline-secondary" href="write.php?parent_id=<?php echo $rs->bid;?>">답글</a>
         <a class="btn btn-outline-secondary" href="write.php?bid=<?php echo $rs->bid;?>">수정</a>
         <a class="btn btn-outline-secondary" href="delete.php?bid=<?php echo $rs->bid;?>">삭제</a>
