@@ -30,8 +30,8 @@
         <a href="index.html">Introduce</a>
         <!--<a href="threecolumn.html">IT</a>-->
         <!--<a href="twocolumn1.html">이커머스</a>-->
-         <a href="twocolumn2.php">Two Column #2</a>
-         <a href="onecolumn.html">소개</a>
+         <a href="twocolumn2.php">dashboard</a>
+         <a href="onecolumn.html">history</a>
     </nav>
 
                             </div>
