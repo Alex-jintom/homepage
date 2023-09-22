@@ -27,11 +27,11 @@
 
 <!-- Nav -->
     <nav id="nav">
-        <a href="index.html">Introduce</a>
-        <!--<a href="threecolumn.html">IT</a>-->
-        <!--<a href="twocolumn1.html">이커머스</a>-->
-         <a href="twocolumn2.php">dashboard</a>
-         <a href="onecolumn.html">history</a>
+                                         <a href="index.html">Introduce</a>
+										<!--<a href="threecolumn.html">IT</a>-->
+										<!--<a href="twocolumn1.html">이커머스</a>-->
+										 <a href="twocolumn2.php">Dashboard</a>
+										 <a href="onecolumn.html">History</a>
     </nav>
 
                             </div>
@@ -261,39 +261,39 @@ include "footer.php";
                         <div class="row">
                             <div class="col-8 col-12-medium">
 
-                                <!-- Links -->
-                                    <section>
-                                        <h2>Article</h2>
-                                        <div>
-                                            <div class="row">
-                                                <div class="col-3 col-12-small">
-                                                    <ul class="link-list last-child">
-                                                    <li><a href="https://luckyyowu.tistory.com/418">회사 업무용 사내 메신저 '슬랙 타입' vs '일반 타입'</a></li>
-                                               
-                                                    </ul>
-                                                </div>
-                                                <div class="col-3 col-12-small">
-                                                    <ul class="link-list last-child">
-                                                    <li><a href="https://luckyyowu.tistory.com/370">어느 스타트업의 애자일 스크럼와 JIRA에 대한 연구 문서</a></li>
-                                                      
-                                                    </ul>
-                                                </div>
-                                                <div class="col-3 col-12-small">
-                                                    <ul class="link-list last-child">
-                                                        <li><a href="#">Neque amet dapibus</a></li>
-                                                
-                                                    </ul>
-                                                </div>
-                                                <div class="col-3 col-12-small">
-                                                    <ul class="link-list last-child">
-                                                        <li><a href="#">Neque amet dapibus</a></li>
-                                              
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-
+ 								<!-- Links -->
+                                 <section>
+										<h2>Article</h2>
+										<div>
+											<div class="row">
+												<div class="col-3 col-12-small">
+													<ul class="link-list last-child">
+														<li><a href="https://luckyyowu.tistory.com/418">회사 업무용 사내 메신저 '슬랙 타입' vs '일반 타입'</a></li>
+														
+												
+													</ul>
+												</div>
+												<div class="col-3 col-12-small">
+													<ul class="link-list last-child">
+														<li><a href="https://luckyyowu.tistory.com/370">어느 스타트업의 애자일 스크럼와 JIRA에 대한 연구 문서</a></li>
+													
+													</ul>
+												</div>
+												<div class="col-3 col-12-small">
+													<ul class="link-list last-child">
+														<li><a href="https://luckyyowu.tistory.com/370">어느 스타트업의 애자일 스크럼와 JIRA에 대한 연구 문서</a></li>
+													
+													</ul>
+												</div>
+												<div class="col-3 col-12-small">
+													<ul class="link-list last-child">
+														<li><a href="https://luckyyowu.tistory.com/370">어느 스타트업의 애자일 스크럼와 JIRA에 대한 연구 문서</a></li>
+																							</ul>
+												</div>
+											</div>
+										</div>
+									</section>
+                                    
                             </div>
                             <div class="col-4 col-12-medium imp-medium">
 
