@@ -5,12 +5,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 
-<?php 
-if($_SESSION['UID']){
-    $user_where = " and c.userid='".$_SESSION['UID']."'";
-}else{
-    $user_where = " and c.ssid='".session_id()."'";
-} 
+<?php session_start();
+if(!$_SESSION['UID']){
+    echo "<script>alert('회원 전용 게시판입니다.');location.href='index.php';</script>";
+    exit;
+}
 ?>
 
 <html>
