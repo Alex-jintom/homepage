@@ -8,24 +8,27 @@
 
 <html>
 	<head>
-		<?php
-if($_SESSION['UID']){
-?>
-<a href="write.php"><button type="button" class="btn btn-primary">등록</button><a>
-<a href="logout.php"><button type="button" class="btn btn-primary">로그아웃</button><a>
-<?php
-}else{
-?>
-<a href="login.php"><button type="button" class="btn btn-primary">로그인</button><a>
-<a href="signup.php"><button type="button" class="btn btn-primary">회원가입</button><a>
-<?php
-}
-?>
 		<title>JIN dashboard</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<div>	
+		<?php
+	if($_SESSION['UID']){
+	?>
+	<a href="write.php"><button type="button" class="btn btn-primary">등록</button><a>
+	<a href="logout.php"><button type="button" class="btn btn-primary">로그아웃</button><a>
+	<?php
+	}else{
+	?>
+	<a href="login.php"><button type="button" class="btn btn-primary">로그인</button><a>
+	<a href="signup.php"><button type="button" class="btn btn-primary">회원가입</button><a>
+	<?php
+	}
+	?>
+</div>
+
 	<body>
 		<div id="page-wrapper">
 
