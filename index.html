@@ -13,21 +13,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<div>	
-		<?php
-	if($_SESSION['UID']){
-	?>
-	<a href="write.php"><button type="button" class="btn btn-primary">등록</button><a>
-	<a href="logout.php"><button type="button" class="btn btn-primary">로그아웃</button><a>
-	<?php
-	}else{
-	?>
-	<a href="login.php"><button type="button" class="btn btn-primary">로그인</button><a>
-	<a href="signup.php"><button type="button" class="btn btn-primary">회원가입</button><a>
-	<?php
-	}
-	?>
-</div>
+
+
 
 	<body>
 		<div id="page-wrapper">
@@ -37,10 +24,36 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-12">
-
+								<?php
+								if($_SESSION['UID']){
+								?>
+								<a href="write.php"><button type="button" class="btn btn-primary">등록</button><a>
+								<a href="logout.php"><button type="button" class="btn btn-primary">로그아웃</button><a>
+								<?php
+								}else{
+								?>
+								<a href="login.php"><button type="button" class="btn btn-primary">로그인</button><a>
+								<a href="signup.php"><button type="button" class="btn btn-primary">회원가입</button><a>
+								<?php
+								}
+								?>
+							
 								<!-- Logo -->
 									<h1><a href="index.html" id="logo">Jin dashboard</a></h1>
-
+									<?php
+									if($_SESSION['UID']){
+									?>
+									<a href="write.php"><button type="button" class="btn btn-primary">등록</button><a>
+									<a href="logout.php"><button type="button" class="btn btn-primary">로그아웃</button><a>
+									<?php
+									}else{
+									?>
+									<a href="login.php"><button type="button" class="btn btn-primary">로그인</button><a>
+									<a href="signup.php"><button type="button" class="btn btn-primary">회원가입</button><a>
+									<?php
+									}
+									?>
+								
 								<!-- Nav -->
 									<nav id="nav">
 										<a href="index.html">Introduce</a>
