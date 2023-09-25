@@ -1,6 +1,6 @@
 <?php session_start();
 if(!$_SESSION['UID']){
-    echo "<script>alert('회원 전용 게시판입니다.');location.href='index.php';</script>";
+    echo "<script>alert('회원 전용 게시판입니다.');location.href='index.html';</script>";
     exit;
 }
 ?>
