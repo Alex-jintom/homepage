@@ -15,7 +15,7 @@ $result=$mysqli->query($sql) or die($mysqli->error);
 
 if($result){
     user_coupon($userid, 1, "회원가입");
-    echo "<script>alert('가입을 환영합니다. );location.href='twocolumn2.php';</script>";
+    echo "<script>alert('가입을 환영합니다. );location.href='index.html';</script>";
     exit;
 }else{
     echo "<script>alert('회원가입에 실패했습니다.');history.back();</script>";
