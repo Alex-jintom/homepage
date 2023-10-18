@@ -75,10 +75,10 @@ if(!$_SESSION['UID']){
                                 <!-- Sidebar -->
                                     <section>
                                         <header>
-                                            <h2>추천 링크</h2>
+                                            <h2>개인 블로그</h2>
                                         </header>
                                         <ul class="link-list">
-                                            <li><a href="#">추천 링크</a></li>
+                                            <li><a href="https://blog.naver.com/alex4you">개인 블로그 운영</a></li>
                                           
                                         </ul>
                                     </section>
@@ -90,7 +90,7 @@ if(!$_SESSION['UID']){
                                             필요한 내용이 있으면 메모를 진행해보자
                                         </p>
                                         <ul class="link-list">
-                                            <li><a href="#">메모 진행</a></li>
+                                            <li><a href="https://memo.naver.com/">메모 진행</a></li>
                                         
                                         </ul>
                                     </section>
@@ -267,7 +267,7 @@ include "footer.php";
                         <div class="row">
                             <div class="col-8 col-12-medium">
 
- 								<!-- Links -->
+ 								<!-- Links 
                                  <section>
 										<h2>Article</h2>
 										<div>
@@ -301,9 +301,9 @@ include "footer.php";
 									</section>
                                     
                             </div>
-                            <div class="col-4 col-12-medium imp-medium">
+                            <div class="col-4 col-12-medium imp-medium">-->
 
-                                <!-- Blurb -->
+                                <!-- Blurb 
                                     <section>
                                         <h2>An Informative Text Blurb</h2>
                                         <p>
@@ -315,7 +315,7 @@ include "footer.php";
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>-->
 
  	<!-- Copyright -->
      <div id="copyright">
